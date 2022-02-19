@@ -24,3 +24,7 @@ Route::get('/signin', function () {
 Route::get('/signup', function () {
     return view('signup');
 });
+
+Route::get('/about', function () {
+    return view('about');
+});
