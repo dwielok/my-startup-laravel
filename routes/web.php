@@ -44,3 +44,7 @@ Route::get('/blog-grids', function () {
 Route::get('/blog-details', function () {
     return view('blogdetails');
 });
+
+Route::get('/not-found', function () {
+    return view('notfound');
+});
