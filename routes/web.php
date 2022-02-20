@@ -32,3 +32,7 @@ Route::get('/about', function () {
 Route::get('/pricing', function () {
     return view('pricing');
 });
+
+Route::get('/contact', function () {
+    return view('contact');
+});
