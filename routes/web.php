@@ -36,3 +36,7 @@ Route::get('/pricing', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+
+Route::get('/blog-grids', function () {
+    return view('bloggrids');
+});
