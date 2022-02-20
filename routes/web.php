@@ -40,3 +40,7 @@ Route::get('/contact', function () {
 Route::get('/blog-grids', function () {
     return view('bloggrids');
 });
+
+Route::get('/blog-details', function () {
+    return view('blogdetails');
+});
